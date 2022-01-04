@@ -1,0 +1,57 @@
+look into adding prettier support
+
+Work on the actual game
+
+Want to make it so that the piece takes gets the get - if piece is moved down manually clock is refreshed
+- if time is greater than the levels piece time the piece is moved and the timeSinceMove is set to 0
+
+// in the future maybe an map for key inputs that
+
+
+todo practical
+
+highlight with letter keys and explode with space bar!
+
+piece doesn't move until after I lift up the key - should not be the case
+
+how I store gameBoard date
+
+
+Nice to haves:
+
+projection downward - be able to toggle this on or off
+
+grid lines
+
+Needs:
+
+timed handling of button hold downs
+
+
+// Issues
+
+trying to abstract key controls into controller class - worked but results in double firing of the event handler somehow
+Not seeing this issue with just a function.
+
+
+todo:
+
+fix issues caused by timeGap refactor ---- done
+
+add score and breaks logic --- done
+
+refactor controller methods --- done
+
+clean up score and breaks
+
+make next piece viewer
+
+brainstorm animation approaches
+
+add end game logic --- mostly done
+
+add animations
+
+
+
+
